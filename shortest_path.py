@@ -1,1 +1,1 @@
-my_graph = {"A": "B", "B": "A"}
+my_graph = {"A": "B", "B": ["A", "C"], "C": "B"}
