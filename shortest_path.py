@@ -6,7 +6,7 @@ my_graph = {
 }
 
 
-def shortest_path(graph, start):
+def shortest_path(graph, start, target=""):
     unvisited = list(graph)
     distances = {node: 0 if node == start else float("inf") for node in graph}
     paths = {node: [] for node in graph}
