@@ -14,4 +14,4 @@ def shortest_path(graph, start):
     print(f"Unvisited: {unvisited}\nDistances: {distances}\nPaths: {paths}")
 
 
-shortest_path(my_graph, "A")
+#shortest_path(my_graph, "A")
